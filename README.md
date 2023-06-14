@@ -10,5 +10,5 @@
 
 5. clone gcc: `git clone https://github.com/THUDM/GCC.git`
 6. 额外配置gcc所需环境: `pip install -r requirements.txt`
-7. 安装RDKit: `conda install -c conda-forge rdkit=2019.09.2`
+7. 安装RDKit: `conda install -c conda-forge rdkit=2019.09.2` (解析时间可能会比较久，请耐心等待)
 
