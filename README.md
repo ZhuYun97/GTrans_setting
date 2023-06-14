@@ -30,11 +30,14 @@
 这个时候运行程序会出现"ModuleNotFoundError: No module named 'dgl.nodeflow'".
 解决办法参考https://github.com/dmlc/dgl/issues/3083
 
+### 配置TAPE
+
 ## 运行程序
 ### 运行GCC
-预训练数据集：https://drive.google.com/u/0/uc?id=1JCHm39rf7HAJSp-1755wa32ToHCn2Twz&export=download
-预训练模型权重：链接：https://pan.zju.edu.cn/share/5fee634c7e5a5ffcad9eddd153，服务器上通过`wget https://osspandownload.zju.edu.cn/download/2f0c510611bf40d4b7ad77ba90a1b171/dee1bd9a175d4594ec0946557485f31b3df091bcfe970f1d0d681b45e3ce5db7/pretrained.tar.gz`下载到项目的saved目录下，然后解压文件`tar zxvf pretrained.tar.gz`
-下游任务数据集：
+- 预训练数据集：https://drive.google.com/u/0/uc?id=1JCHm39rf7HAJSp-1755wa32ToHCn2Twz&export=download
+- 预训练模型权重：链接：https://pan.zju.edu.cn/share/5fee634c7e5a5ffcad9eddd153，
+服务器上通过`wget https://osspandownload.zju.edu.cn/download/2f0c510611bf40d4b7ad77ba90a1b171/dee1bd9a175d4594ec0946557485f31b3df091bcfe970f1d0d681b45e3ce5db7/pretrained.tar.gz`下载到项目的saved目录下，然后解压文件`tar zxvf pretrained.tar.gz`
+- 下游任务数据集：
 
 ## 工具
 GitHub代理：https://ghproxy.com/ ，如果clone项目时间过久可以使用该代理。使用方法`git clone https://ghproxy.com/XXX`
@@ -43,3 +46,4 @@ GitHub代理：https://ghproxy.com/ ，如果clone项目时间过久可以使用
 - https://github.com/dmlc/dgl/issues/1826
 - https://zhuanlan.zhihu.com/p/367740437
 - https://github.com/dmlc/dgl/issues/3083
+
